@@ -60,6 +60,7 @@
 		8635ECB72CF8AF46007F4632 /* PauseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635ECB42CF8AF46007F4632 /* PauseModel.swift */; };
 		8635ECB82CF8AF46007F4632 /* PauseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635ECB52CF8AF46007F4632 /* PauseViewModel.swift */; };
 		8635ECBB2CF8AF6A007F4632 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635ECBA2CF8AF6A007F4632 /* TutorialView.swift */; };
+		864B81202CF8C18600F7BBEB /* MadimiOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864B811F2CF8C15B00F7BBEB /* MadimiOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +118,8 @@
 		8635ECB42CF8AF46007F4632 /* PauseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseModel.swift; sourceTree = "<group>"; };
 		8635ECB52CF8AF46007F4632 /* PauseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewModel.swift; sourceTree = "<group>"; };
 		8635ECBA2CF8AF6A007F4632 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		864B811F2CF8C15B00F7BBEB /* MadimiOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MadimiOne-Regular.ttf"; sourceTree = "<group>"; };
+		864B81212CF8C19700F7BBEB /* Bananza1-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bananza1-1-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +152,11 @@
 		8635EC392CF8ABB6007F4632 /* Bananza1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				864B81212CF8C19700F7BBEB /* Bananza1-1-Info.plist */,
 				8635EC3A2CF8ABB6007F4632 /* Bananza1_1App.swift */,
 				8635EC3C2CF8ABB6007F4632 /* ContentView.swift */,
 				8635EC3E2CF8ABB7007F4632 /* Assets.xcassets */,
+				864B811F2CF8C15B00F7BBEB /* MadimiOne-Regular.ttf */,
 				8635ECB92CF8AF58007F4632 /* TutorialModule */,
 				8635ECB22CF8AF3E007F4632 /* PauseModule */,
 				8635ECAB2CF8AF0D007F4632 /* LoseModule */,
@@ -416,6 +421,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864B81202CF8C18600F7BBEB /* MadimiOne-Regular.ttf in Resources */,
 				8635EC422CF8ABB7007F4632 /* Preview Assets.xcassets in Resources */,
 				8635EC3F2CF8ABB7007F4632 /* Assets.xcassets in Resources */,
 			);
@@ -615,6 +621,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bananza1-1-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -644,6 +651,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bananza1-1-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
