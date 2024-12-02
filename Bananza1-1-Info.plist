@@ -6,5 +6,35 @@
 	<array>
 		<string>MadimiOne-Regular.ttf</string>
 	</array>
+    
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+        <string>com.dsad.fsadfsad.backgroundProccess</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>zenanaapp</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSUserNotificationUsageDescription</key>
+    <string>We send notifications to keep our users informed about updates and upcoming big events.</string>
+
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>processing</string>
+        <string>remote-notification</string>
+    </array>
 </dict>
 </plist>

@@ -61,6 +61,14 @@
 		8635ECB82CF8AF46007F4632 /* PauseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635ECB52CF8AF46007F4632 /* PauseViewModel.swift */; };
 		8635ECBB2CF8AF6A007F4632 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635ECBA2CF8AF6A007F4632 /* TutorialView.swift */; };
 		864B81202CF8C18600F7BBEB /* MadimiOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864B811F2CF8C15B00F7BBEB /* MadimiOne-Regular.ttf */; };
+		EE08DB242CFD9C680051A3CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE08DB232CFD9C680051A3CF /* GoogleService-Info.plist */; };
+		EE08DB262CFD9DB70051A3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08DB252CFD9DB70051A3CF /* AppDelegate.swift */; };
+		EE08DB292CFD9E080051A3CF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EE08DB282CFD9E080051A3CF /* FirebaseAnalytics */; };
+		EE08DB2B2CFD9E080051A3CF /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = EE08DB2A2CFD9E080051A3CF /* FirebaseMessaging */; };
+		EEBC8B952CFD19F60012520B /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8B942CFD19F60012520B /* Loading.swift */; };
+		EEBC8B972CFD1A090012520B /* LoadingSplasVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8B962CFD1A090012520B /* LoadingSplasVm.swift */; };
+		EEBC8B992CFD1A460012520B /* TransfererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8B982CFD1A460012520B /* TransfererView.swift */; };
+		EEBC8BDC2CFD228F0012520B /* SecondInfosStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBC8BDB2CFD228F0012520B /* SecondInfosStageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +128,12 @@
 		8635ECBA2CF8AF6A007F4632 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		864B811F2CF8C15B00F7BBEB /* MadimiOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MadimiOne-Regular.ttf"; sourceTree = "<group>"; };
 		864B81212CF8C19700F7BBEB /* Bananza1-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bananza1-1-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE08DB232CFD9C680051A3CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE08DB252CFD9DB70051A3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEBC8B942CFD19F60012520B /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		EEBC8B962CFD1A090012520B /* LoadingSplasVm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSplasVm.swift; sourceTree = "<group>"; };
+		EEBC8B982CFD1A460012520B /* TransfererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfererView.swift; sourceTree = "<group>"; };
+		EEBC8BDB2CFD228F0012520B /* SecondInfosStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInfosStageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE08DB2B2CFD9E080051A3CF /* FirebaseMessaging in Frameworks */,
+				EE08DB292CFD9E080051A3CF /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +168,11 @@
 		8635EC392CF8ABB6007F4632 /* Bananza1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				EEBC8B932CFD19DC0012520B /* Loading */,
 				864B81212CF8C19700F7BBEB /* Bananza1-1-Info.plist */,
 				8635EC3A2CF8ABB6007F4632 /* Bananza1_1App.swift */,
 				8635EC3C2CF8ABB6007F4632 /* ContentView.swift */,
+				EE08DB232CFD9C680051A3CF /* GoogleService-Info.plist */,
 				8635EC3E2CF8ABB7007F4632 /* Assets.xcassets */,
 				864B811F2CF8C15B00F7BBEB /* MadimiOne-Regular.ttf */,
 				8635ECB92CF8AF58007F4632 /* TutorialModule */,
@@ -176,6 +194,7 @@
 				8635EC4B2CF8ACF7007F4632 /* CustomView */,
 				8635EC482CF8ACDA007F4632 /* Extension */,
 				8635EC402CF8ABB7007F4632 /* Preview Content */,
+				EE08DB252CFD9DB70051A3CF /* AppDelegate.swift */,
 			);
 			path = Bananza1.1;
 			sourceTree = "<group>";
@@ -289,6 +308,7 @@
 				8635EC852CF8AE44007F4632 /* FirstStageView.swift */,
 				8635EC862CF8AE44007F4632 /* FirstStageModel.swift */,
 				8635EC872CF8AE44007F4632 /* FirstStageViewModel.swift */,
+				EEBC8BDB2CFD228F0012520B /* SecondInfosStageView.swift */,
 			);
 			path = FirstStageLevel;
 			sourceTree = "<group>";
@@ -363,6 +383,16 @@
 			path = TutorialModule;
 			sourceTree = "<group>";
 		};
+		EEBC8B932CFD19DC0012520B /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				EEBC8B942CFD19F60012520B /* Loading.swift */,
+				EEBC8B962CFD1A090012520B /* LoadingSplasVm.swift */,
+				EEBC8B982CFD1A460012520B /* TransfererView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -407,6 +437,9 @@
 				Base,
 			);
 			mainGroup = 8635EC2E2CF8ABB6007F4632;
+			packageReferences = (
+				EE08DB272CFD9E080051A3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8635EC382CF8ABB6007F4632 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -422,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				864B81202CF8C18600F7BBEB /* MadimiOne-Regular.ttf in Resources */,
+				EE08DB242CFD9C680051A3CF /* GoogleService-Info.plist in Resources */,
 				8635EC422CF8ABB7007F4632 /* Preview Assets.xcassets in Resources */,
 				8635EC3F2CF8ABB7007F4632 /* Assets.xcassets in Resources */,
 			);
@@ -436,11 +470,13 @@
 			files = (
 				8635EC4D2CF8AD0D007F4632 /* CustomButtons.swift in Sources */,
 				8635EC3D2CF8ABB6007F4632 /* ContentView.swift in Sources */,
+				EEBC8B952CFD19F60012520B /* Loading.swift in Sources */,
 				8635EC572CF8AD59007F4632 /* MenuView.swift in Sources */,
 				8635EC652CF8AD98007F4632 /* SettingsView.swift in Sources */,
 				8635EC662CF8AD98007F4632 /* SettingsModel.swift in Sources */,
 				8635EC672CF8AD98007F4632 /* SettingsViewModel.swift in Sources */,
 				8635EC732CF8ADE1007F4632 /* BlockShopView.swift in Sources */,
+				EEBC8B972CFD1A090012520B /* LoadingSplasVm.swift in Sources */,
 				8635EC742CF8ADE1007F4632 /* BlockShopModel.swift in Sources */,
 				8635EC752CF8ADE1007F4632 /* BlockShopViewModel.swift in Sources */,
 				8635EC582CF8AD59007F4632 /* MenuModel.swift in Sources */,
@@ -464,6 +500,7 @@
 				8635EC892CF8AE44007F4632 /* FirstStageModel.swift in Sources */,
 				8635EC8A2CF8AE44007F4632 /* FirstStageViewModel.swift in Sources */,
 				8635EC822CF8AE26007F4632 /* TaskModel.swift in Sources */,
+				EE08DB262CFD9DB70051A3CF /* AppDelegate.swift in Sources */,
 				8635EC832CF8AE26007F4632 /* TaskViewModel.swift in Sources */,
 				8635EC7B2CF8AE01007F4632 /* ToolShopModel.swift in Sources */,
 				8635ECA82CF8AEE7007F4632 /* WinView.swift in Sources */,
@@ -477,6 +514,7 @@
 				8635ECB72CF8AF46007F4632 /* PauseModel.swift in Sources */,
 				8635ECB82CF8AF46007F4632 /* PauseViewModel.swift in Sources */,
 				8635EC8F2CF8AE6B007F4632 /* SecondStageView.swift in Sources */,
+				EEBC8BDC2CFD228F0012520B /* SecondInfosStageView.swift in Sources */,
 				8635EC902CF8AE6B007F4632 /* SecondStageModel.swift in Sources */,
 				8635EC912CF8AE6B007F4632 /* SecondStageViewModel.swift in Sources */,
 				8635EC5F2CF8AD79007F4632 /* StageModel.swift in Sources */,
@@ -484,6 +522,7 @@
 				8635EC602CF8AD79007F4632 /* StageViewModel.swift in Sources */,
 				8635EC4A2CF8ACEB007F4632 /* TextExtension.swift in Sources */,
 				8635EC522CF8AD3C007F4632 /* UserDefalutsManager.swift in Sources */,
+				EEBC8B992CFD1A460012520B /* TransfererView.swift in Sources */,
 				8635EC3B2CF8ABB6007F4632 /* Bananza1_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,7 +657,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bananza1.1/Preview Content\"";
-				DEVELOPMENT_TEAM = 59WWFG63NN;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bananza1-1-Info.plist";
@@ -627,6 +666,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -634,9 +674,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ART.Bananza1-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -648,7 +692,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Bananza1.1/Preview Content\"";
-				DEVELOPMENT_TEAM = 59WWFG63NN;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bananza1-1-Info.plist";
@@ -657,6 +701,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -664,9 +709,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ART.Bananza1-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -692,6 +741,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE08DB272CFD9E080051A3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE08DB282CFD9E080051A3CF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE08DB272CFD9E080051A3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EE08DB2A2CFD9E080051A3CF /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE08DB272CFD9E080051A3CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8635EC2F2CF8ABB6007F4632 /* Project object */;
 }
